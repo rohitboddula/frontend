@@ -1,0 +1,52 @@
+[
+  {
+    "id": 6,
+    "name": "rohit",
+    "username": "rohit",
+    "email": "rohit@gmail.com",
+    "password": "239a9d0605164cd77477a6a93d22780f5b3899887fd119546e84c510b493f520",
+    "age": "20",
+    "birthday": "1999-04-15",
+    "phone": "8454860208",
+    "balance": "0",
+    "broughtProducts": [],
+    "cart": {
+      "active": false,
+      "products": []
+    },
+    "isAdmin": true
+  },
+  {
+    "id": 1,
+    "name": "rohit",
+    "username": "rohit",
+    "email": "rohit@gmail.com",
+    "password": "239a9d0605164cd77477a6a93d22780f5b3899887fd119546e84c510b493f520",
+    "age": "20",
+    "birthday": "1999-04-15",
+    "phone": "8454860208",
+    "balance": "0",
+    "broughtProducts": [],
+    "cart": {
+      "active": false,
+      "products": []
+    },
+    "isAdmin": true
+  },
+  {
+    "id": 2,
+    "name": "ross",
+    "username": "ross",
+    "email": "ross@gmail.com",
+    "password": "b56ba57c9fc940afa5a430edc3af9ca2b9a5dd3174eb76f1450d97ecaa95c74f",
+    "age": "20",
+    "birthday": "1999-05-15",
+    "phone": "8454860208",
+    "balance": "0",
+    "broughtProducts": [],
+    "cart": {
+      "active": false,
+      "products": []
+    }
+  }
+]

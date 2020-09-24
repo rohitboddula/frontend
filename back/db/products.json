@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineering",
+    "desc": "TYBSc-IT",
+    "price": "10.00",
+    "images": "../images/SE.png,../images/SE.png",
+    "stock": "21",
+    "timesBought": "5",
+    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "reviwes": [
+      {
+        "stars": "1",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      },
+      {
+        "stars": "4",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      }
+    ],
+    "avrStars": "2.5",
+    "enabled": true
+  },
+  {
+    "id": 2,
+    "title": "Applied Mathematics",
+    "desc": "TYBSc-IT\n",
+    "price": "10.00",
+    "images": "../images/AppliedMathematics.jpeg,../images/AppliedMathematics.jpeg",
+    "stock": "20",
+    "timesBought": "5",
+    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "reviwes": [
+      {
+        "stars": "5",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      },
+      {
+        "stars": "4",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      }
+    ],
+    "avrStars": "4.5",
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "title": "Project Management",
+    "desc": "TYBSc-IT",
+    "price": "10.00",
+    "images": "../images/ProjectManagement.png,../images/ProjectManagement.png",
+    "stock": "20",
+    "timesBought": "5",
+    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "reviwes": [
+      {
+        "stars": "5",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      },
+      {
+        "stars": "4",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      }
+    ],
+    "avrStars": "4.5",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "title": "Web Programming",
+    "desc": "TYBSc-IT",
+    "price": "10.00",
+    "images": "../images/WebProgramming.png,../images/WebProgramming.png",
+    "stock": "20",
+    "timesBought": "5",
+    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "reviwes": [
+      {
+        "stars": "5",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      },
+      {
+        "stars": "4",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      }
+    ],
+    "avrStars": "4.5",
+    "enabled": true
+  },
+  {
+    "id": 5,
+    "title": "Embedded Systems ",
+    "desc": "TYBSc-IT",
+    "price": "10.00",
+    "images": "../images/EmbeddedSystems.png,../images/EmbeddedSystems.png",
+    "stock": "20",
+    "timesBought": "5",
+    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "reviwes": [
+      {
+        "stars": "5",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      },
+      {
+        "stars": "4",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      }
+    ],
+    "avrStars": "4.5",
+    "enabled": true
+  },
+  {
+    "id": 6,
+    "title": "Data Warehousing",
+    "desc": "TYBSc-IT",
+    "price": "10.00",
+    "images": "../images/DataWarehousing.png,../images/DataWarehousing.png",
+    "stock": "20",
+    "timesBought": "5",
+    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "reviwes": [
+      {
+        "stars": "5",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      },
+      {
+        "stars": "4",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      }
+    ],
+    "avrStars": "4.5",
+    "enabled": true
+  },
+  {
+    "id": 7,
+    "title": "Object Oriented Programming ",
+    "desc": "TYBSc-IT",
+    "price": "15.00",
+    "images": "../images/OOPs.png,../images/OOPs.png",
+    "stock": "20",
+    "timesBought": "5",
+    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "reviwes": [
+      {
+        "stars": "5",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      },
+      {
+        "stars": "4",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      }
+    ],
+    "avrStars": "4.5",
+    "enabled": true
+  },
+  {
+    "id": 8,
+    "title": "Internet Technology",
+    "desc": "TYBSc-IT",
+    "price": "15.00",
+    "images": "../images/InternetTechnology.png,../images/InternetTechnology.png",
+    "stock": "20",
+    "timesBought": "5",
+    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "reviwes": [
+      {
+        "stars": "5",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      },
+      {
+        "stars": "4",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      }
+    ],
+    "avrStars": "4.5",
+    "enabled": true
+  },
+  {
+    "id": 9,
+    "title": "Computer Oriented Statistical Techniques",
+    "desc": "TYBSc-IT",
+    "price": "15.00",
+    "images": "../images/COST.png,../images/COST.png",
+    "stock": "20",
+    "timesBought": "5",
+    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "reviwes": [
+      {
+        "stars": "5",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      },
+      {
+        "stars": "4",
+        "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+        "author": "John Doe"
+      }
+    ],
+    "avrStars": "4.5",
+    "enabled": true
+  }
+]
