@@ -40,11 +40,7 @@ class Header extends Component {
                     Shop
                   </Link>
                 </li>
-                <li>
-                  {/* <Link to={`/blog`} className="nav__ul__item__link">
-                    Blog
-                  </Link> */}
-                </li>
+                
                 <li>
                   <Link to={`/contact`} className="nav__ul__item__link">
                     Contact
@@ -98,6 +94,7 @@ class Header extends Component {
                           />
                         </Link>
                       </div>
+                     
 
                       <div
                         onClick={this.handleSignOut}
@@ -135,11 +132,6 @@ class Header extends Component {
                   <li className="nav__ul__item">
                     <Link to={`/shop`} className="nav__ul__item__link">
                       Shop
-                    </Link>
-                  </li>
-                  <li className="nav__ul__item">
-                    <Link to={`/blog`} className="nav__ul__item__link">
-                      Blog
                     </Link>
                   </li>
                   <li className="nav__ul__item">

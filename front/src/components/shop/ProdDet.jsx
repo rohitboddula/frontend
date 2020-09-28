@@ -29,9 +29,8 @@ class Productdetails extends Component {
       this.setState({ isLoading: true });
       const user = JSON.parse(localStorage.getItem('user'));
       const id = user.id;
-      let quantity = parseInt(this.state.quantity);
-      console.log(user.cart );
-      const sameProduct = user.cart.find(item => item.id == this.state.item.id);
+      let quantity = parseInt(this.state.quantity);      
+      const sameProduct = user.cart.products.find(item => item.id == this.state.item.id);
       if (sameProduct) {
         quantity += parseInt(sameProduct.quantity);
 

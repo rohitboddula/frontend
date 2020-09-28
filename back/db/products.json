@@ -7,7 +7,7 @@
     "images": "../images/SE.png,../images/SE.png",
     "stock": "21",
     "timesBought": "5",
-    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "nutritionFacts": "",
     "reviwes": [
       {
         "stars": "1",
@@ -31,7 +31,7 @@
     "images": "../images/AppliedMathematics.jpeg,../images/AppliedMathematics.jpeg",
     "stock": "20",
     "timesBought": "5",
-    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "nutritionFacts": " ",
     "reviwes": [
       {
         "stars": "5",
@@ -55,7 +55,7 @@
     "images": "../images/ProjectManagement.png,../images/ProjectManagement.png",
     "stock": "20",
     "timesBought": "5",
-    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "nutritionFacts": "",
     "reviwes": [
       {
         "stars": "5",
@@ -79,7 +79,7 @@
     "images": "../images/WebProgramming.png,../images/WebProgramming.png",
     "stock": "20",
     "timesBought": "5",
-    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "nutritionFacts": " ",
     "reviwes": [
       {
         "stars": "5",
@@ -103,7 +103,7 @@
     "images": "../images/EmbeddedSystems.png,../images/EmbeddedSystems.png",
     "stock": "20",
     "timesBought": "5",
-    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "nutritionFacts": " ",
     "reviwes": [
       {
         "stars": "5",
@@ -127,7 +127,7 @@
     "images": "../images/DataWarehousing.png,../images/DataWarehousing.png",
     "stock": "20",
     "timesBought": "5",
-    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "nutritionFacts": " ",
     "reviwes": [
       {
         "stars": "5",
@@ -151,7 +151,7 @@
     "images": "../images/OOPs.png,../images/OOPs.png",
     "stock": "20",
     "timesBought": "5",
-    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "nutritionFacts": " ",
     "reviwes": [
       {
         "stars": "5",
@@ -175,7 +175,7 @@
     "images": "../images/InternetTechnology.png,../images/InternetTechnology.png",
     "stock": "20",
     "timesBought": "5",
-    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "nutritionFacts": "",
     "reviwes": [
       {
         "stars": "5",
@@ -199,7 +199,7 @@
     "images": "../images/COST.png,../images/COST.png",
     "stock": "20",
     "timesBought": "5",
-    "nutritionFacts": "Total Fat: 0.6g 1%, Cholesterol: 0mg 0%, Sodium: 400mg 17%, Potassium: 0mg 0%, Total Carbohydrate: 0g 0%, Protein: 23.5g 47%, Vitamin A: 0%, Vitamin C: 0%, Calcium: 0%, Iron: 0%",
+    "nutritionFacts": " ",
     "reviwes": [
       {
         "stars": "5",
@@ -215,4 +215,5 @@
     "avrStars": "4.5",
     "enabled": true
   }
+  
 ]

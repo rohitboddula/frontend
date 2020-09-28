@@ -1,6 +1,6 @@
 const express = require('express');
 const fs = require('fs'); //for files
-// const nodemailer = require('nodemailer');   //for sending messages --- work in progress
+const nodemailer = require('nodemailer');   //for sending messages --- work in progress
 const router = express.Router();
 
 const Message = require('../models/Message');

@@ -37,10 +37,10 @@ class Footer extends Component {
 						<Link to="/privacy">PRIVACY</Link>
 						<Link to="/terms-of-use">TERMS OF USE</Link>
 					</div>
-					<div className="footer-bot__div">
+					{/* <div className="footer-bot__div">
 						<span>Powered By</span>
 						<a href="http://techub.ge/">Techub</a>
-					</div>
+					</div> */}
 				</div>
 			</footer>
 		);

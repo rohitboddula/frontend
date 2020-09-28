@@ -9,12 +9,12 @@ class Cart extends Component {
 		super(props);
 		this.state = {
 			cartList: [],
-			cartProducts: []
+			cartProducts: [],
 		};
 	}
 	componentDidMount() {
 		if (localStorage.user && !localStorage.user.isAdmin) {
-			const id = JSON.parse(localStorage.getItem('user')).id;
+			const id = JSON.parse(localStorage.getItem("user")).id;
 
 			fetch(`http://localhost:5000/api/users/${id}/cart`)
 				.then((res) => res.json())
@@ -24,21 +24,21 @@ class Cart extends Component {
 					// }, 3000)
 				})
 				.catch((err) => console.log(err))
-				.then(res => {
+				.then((res) => {
 					const idArray = {
-						idArray: this.state.cartList.map(cartList => cartList.id),
+						idArray: this.state.cartList.map((cartList) => cartList.id),
 					};
 
 					fetch(`http://localhost:5000/api/products/multiple`, {
 						method: "post",
 						headers: { "Content-Type": "application/json" },
-						body: JSON.stringify(idArray)
+						body: JSON.stringify(idArray),
 					})
-						.then(res => res.json())
-						.then(json => {
+						.then((res) => res.json())
+						.then((json) => {
 							this.setState({ cartProducts: json });
 						})
-						.catch(err => console.log(err));
+						.catch((err) => console.log(err));
 				});
 		}
 	}
@@ -46,12 +46,12 @@ class Cart extends Component {
 		let sumcartitems = 0;
 		this.state.cartProducts.forEach((cartItem) => {
 			const quantity = this.state.cartList.find(
-				(item) => item.id === cartItem.id
+				(item) => item.id == cartItem.id
 			).quantity;
 			sumcartitems += parseFloat(cartItem.price) * parseFloat(quantity);
 		});
-		//this.state.subTotal = sumcartitems;
-		this.setState({ subTotal: sumcartitems });
+		this.state.subTotal = sumcartitems;
+		// this.setState({ subTotal: sumcartitems });
 	};
 	removeItem = (id) => {
 		const { cartList, cartProducts } = this.state;
@@ -92,11 +92,11 @@ class Cart extends Component {
 									key={cartitem.id}
 									cartitem={cartitem}
 									quantity={
-										cartList.find((item) => item.id === cartitem.id).quantity
+										cartList.find((item) => item.id == cartitem.id).quantity
 									}
 									removeItem={this.removeItem}
-									value={this.state.value}
-									checkout={this.checkout}
+									//   value={this.state.value}
+									//   checkout={this.checkout}
 								/>
 							</div>
 						);

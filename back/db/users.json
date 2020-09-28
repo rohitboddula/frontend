@@ -48,5 +48,37 @@
       "active": false,
       "products": []
     }
+  },
+  {
+    "id": 3,
+    "name": "rock",
+    "username": "rock",
+    "email": "rock@gmail.com",
+    "password": "9526b2625681b23ffea9c271d5f0696efe0bdf87dee2cada14cd5d5608e84ab5",
+    "age": "20",
+    "birthday": "1999-05-05",
+    "phone": "8454860209",
+    "balance": "0",
+    "broughtProducts": [],
+    "cart": {
+      "active": false,
+      "products": []
+    }
+  },
+  {
+    "id": 4,
+    "name": "sidd",
+    "username": "sidd",
+    "email": "sidd@gmail.com",
+    "password": "a8dcac372f35a7fdb298e35043efac3c0f87d35df63e58c628793fd5291093c9",
+    "age": "22",
+    "birthday": "1999-05-05",
+    "phone": "1232323232",
+    "balance": "0",
+    "broughtProducts": [],
+    "cart": {
+      "active": false,
+      "products": []
+    }
   }
 ]
