@@ -30,12 +30,11 @@ router.route('/').get((req, res) => {
 router.route('/register').post((req, res) => {
   req.body.password = req.body.newPassword;
   const user = validateUser(req.body);
-  user.password = encrypt(user.password);
-  let usersDB = JSON.parse(fs.readFileSync('db/users.json'));
-
   if (user.error) {
     return res.status(400).json({ message: user.error });
   }
+  user.password = encrypt(user.password);
+  let usersDB = JSON.parse(fs.readFileSync('db/users.json'));
   for (let usr of usersDB) {
     if (usr.email === user.email || usr.username === user.username) {
       return res
@@ -47,7 +46,7 @@ router.route('/register').post((req, res) => {
   const id = usersDB[usersDB.length - 1].id + 1 || 1;
   usersDB.push(new User({ id, ...user }));
   fs.writeFileSync('db/users.json', JSON.stringify(usersDB, null, 2));
-  return res.json(user);
+  return res.json({ id, ...user });
 });
 
 // path will be /api/users/login

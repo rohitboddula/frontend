@@ -94,5 +94,21 @@
       "active": false,
       "products": []
     }
+  },
+  {
+    "id": 5,
+    "name": "Akash Mane",
+    "username": "Akash Mane",
+    "email": "knatbic@gmail.com",
+    "password": "4207ebb9b82ad1652338f822f11a9033469ae6dce35672fe351a97e6d97b3425",
+    "age": "22",
+    "birthday": "1999-04-15",
+    "phone": "08652523958",
+    "balance": "0",
+    "broughtProducts": [],
+    "cart": {
+      "active": false,
+      "products": []
+    }
   }
 ]

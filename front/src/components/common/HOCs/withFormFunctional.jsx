@@ -97,8 +97,15 @@ const withFormFunctional = (formControls) => (Comp) => {
 							1000
 						);
 						setTimeout(() => this.setState({ done: false }), 2000);
+						if(this.props.type === 'user-register') {
+							// this.props.history.push('/user/profile')
+							localStorage.setItem("user", JSON.stringify(this.state.data));
+							window.location.pathname = '/user/profile'
+							console.log(this.props.history)
+						}
 					})
 					.catch((err) => {
+						console.log(err)
 						this.handleErrors(err);
 						setTimeout(() => this.setState({ isLoading: false }), 1000);
 					});

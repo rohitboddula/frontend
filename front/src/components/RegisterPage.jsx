@@ -87,6 +87,16 @@ const RegisteForm = ({
 					
 					<TextInput
 						type="text"
+						name="age"
+						defaultValue={age.value}
+						placeholder={age.placeholder}
+						touched={age.touched}
+						valid={age.valid}
+						onChange={handleChange}
+						className="form-input"
+					/>
+					<TextInput
+						type="text"
 						name="birthday"
 						maxLength={birthday.validationRules.maxLength}
 						defaultValue={birthday.value}
@@ -111,9 +121,8 @@ const RegisteForm = ({
 					<button
 						type="submit"
 						className="form-button"
-						onClick={() => {
-							window.location = "./user/UserProfile";
-						}}>
+						
+					>
 						{isLoading ? (
 							<FontAwesomeIcon icon="spinner" spin />
 						) : done ? (

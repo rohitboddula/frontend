@@ -78,6 +78,7 @@ const AddUserForm = (props) => {
 	return (
 		<UserFormWithFormFunctional
 			method="add"
+			type="user-register"
 			url={`${props.url}register`}
 			// {...props}
 		/>
