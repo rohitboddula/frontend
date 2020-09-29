@@ -35,6 +35,7 @@ const minLengthValidator = (value, minLength) => {
 };
 
 const formatValidator = (value, format) => {
+	console.log(value,format)
 	return format.test(value);
 };
 

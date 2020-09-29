@@ -12,7 +12,16 @@
     "broughtProducts": [],
     "cart": {
       "active": false,
-      "products": []
+      "products": [
+        {
+          "id": "1",
+          "quantity": "4"
+        },
+        {
+          "id": "2",
+          "quantity": "1"
+        }
+      ]
     },
     "isAdmin": true
   },
@@ -62,7 +71,12 @@
     "broughtProducts": [],
     "cart": {
       "active": false,
-      "products": []
+      "products": [
+        {
+          "id": "1",
+          "quantity": "1"
+        }
+      ]
     }
   },
   {

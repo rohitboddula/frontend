@@ -26,7 +26,7 @@ class Cart extends Component {
 				.catch((err) => console.log(err))
 				.then((res) => {
 					const idArray = {
-						idArray: this.state.cartList.map((cartList) => cartList.id),
+						idArray: this.state.cartList.products.map((cartList) => cartList.id),
 					};
 
 					fetch(`http://localhost:5000/api/products/multiple`, {
@@ -36,6 +36,7 @@ class Cart extends Component {
 					})
 						.then((res) => res.json())
 						.then((json) => {
+							console.log(json)
 							this.setState({ cartProducts: json });
 						})
 						.catch((err) => console.log(err));
@@ -45,7 +46,7 @@ class Cart extends Component {
 	subTotal = () => {
 		let sumcartitems = 0;
 		this.state.cartProducts.forEach((cartItem) => {
-			const quantity = this.state.cartList.find(
+			const quantity = this.state.cartList.products.find(
 				(item) => item.id == cartItem.id
 			).quantity;
 			sumcartitems += parseFloat(cartItem.price) * parseFloat(quantity);
@@ -55,7 +56,7 @@ class Cart extends Component {
 	};
 	removeItem = (id) => {
 		const { cartList, cartProducts } = this.state;
-		const sortedCartList = cartList.filter((item) => item.id !== id);
+		const sortedCartList = cartList.products.filter((item) => item.id !== id);
 		const sortedCartProducts = cartProducts.filter((item) => item.id !== id);
 
 		if (localStorage.user && !localStorage.user.isAdmin) {
@@ -92,7 +93,7 @@ class Cart extends Component {
 									key={cartitem.id}
 									cartitem={cartitem}
 									quantity={
-										cartList.find((item) => item.id == cartitem.id).quantity
+										cartList.products.find((item) => item.id == cartitem.id).quantity
 									}
 									removeItem={this.removeItem}
 									//   value={this.state.value}

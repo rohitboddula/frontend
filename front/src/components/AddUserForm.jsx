@@ -16,7 +16,7 @@ const AddUserForm = (props) => {
 			value: "",
 			placeholder: "Choose an username",
 			validationRules: {
-				format: "/^[a-zA-Z-]+$/",
+				format: /^[a-zA-Z-]+$/,
 				isRequired: true,
 			},
 		},
@@ -24,7 +24,7 @@ const AddUserForm = (props) => {
 			value: "",
 			placeholder: "Your Email",
 			validationRules: {
-				format:'/^(([^<>()[]\\.,;:s@"]+(.[^<>()[]\\.,;:s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/',
+				format:/^(([^<>()[]\\.,;:s@"]+(.[^<>()[]\\.,;:s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/,
 				isRequired: true,
 			},
 		},
@@ -50,7 +50,7 @@ const AddUserForm = (props) => {
 			value: "",
 			placeholder: "Age",
 			validationRules: {
-				format: "/^[0-9]+$/",
+				format: /^[0-9]+$/,
 				isRequired: true,
 			},
 		},
