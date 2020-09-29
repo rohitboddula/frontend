@@ -97,7 +97,7 @@ const withFormFunctional = (formControls) => (Comp) => {
 							1000
 						);
 						setTimeout(() => this.setState({ done: false }), 2000);
-						if(this.props.type === 'user-register') {
+						if(this.props.type === 'user-register' || this.props.type === 'user-login') {
 							// this.props.history.push('/user/profile')
 							localStorage.setItem("user", JSON.stringify(this.state.data));
 							window.location.pathname = '/user/profile'
